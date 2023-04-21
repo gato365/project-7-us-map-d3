@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
 
-
+const path = d3.geoPath();
 
 function chart(us) {
     const width = 975;
@@ -70,10 +70,9 @@ function chart(us) {
     return svg.node();
 }
 
-// Path: us.json
-// This 
-d3.json("./us.json").then(us => {
-
-    const chartNode = chart(us);
-    document.body.appendChild(chartNode);
+d3.json("https://gist.githubusercontent.com/mbostock/4090846/raw/07e73f3c2d21558489604a0bc434b3a5cf41a867/us.json").then(us => {
+  document.body.appendChild(chart(us));
 });
+
+
+

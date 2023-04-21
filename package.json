@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/gato365/project-7-us-map-d3#readme",
   "dependencies": {
+    "@observablehq/runtime": "^5.6.0",
     "d3": "^7.8.4",
     "topojson": "^3.0.2",
     "topojson-client": "^3.1.0"
