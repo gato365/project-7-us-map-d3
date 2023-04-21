@@ -72,7 +72,8 @@ function chart(us) {
 
 // Path: us.json
 // This 
-d3.json("us.json").then((us) => {
+d3.json("./us.json").then(us => {
+
     const chartNode = chart(us);
     document.body.appendChild(chartNode);
 });
