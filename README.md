@@ -14,12 +14,12 @@ This project involves creating a zoomable map of the United States using D3.js, 
 
 1.  Set up the project folder and environment.
 - [X] Create a new project folder.
-- [] Initialize a new npm project with npm init -y.
-- [] Install dependencies: D3.js and TopoJSON with npm install d3 topojson.
-- [] Create and edit the HTML file (index.html).
-- [] Add the basic HTML structure, including the DOCTYPE declaration, html, head, and body tags.
-- [] Include a script tag to reference the main JavaScript file, main.js.
-- [] Create and edit the JavaScript file (main.js).
+- [X] Initialize a new npm project with ```npm init -y```.
+- [X] Install dependencies: D3.js and TopoJSON with npm install d3 topojson.
+- [X] Create and edit the HTML file (index.html).
+- [X] Add the basic HTML structure, including the DOCTYPE declaration, html, head, and body tags.
+- [X] Include a script tag to reference the main JavaScript file, main.js.
+- [X] Create and edit the JavaScript file (main.js).
 
 2. Import the required dependencies: D3.js and TopoJSON.
 - [] Define the main chart function, which takes a TopoJSON data object (US states) as input.
