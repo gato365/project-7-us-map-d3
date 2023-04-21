@@ -22,14 +22,14 @@ This project involves creating a zoomable map of the United States using D3.js, 
 - [X] Create and edit the JavaScript file (main.js).
 
 2. Import the required dependencies: D3.js and TopoJSON.
-- [] Define the main chart function, which takes a TopoJSON data object (US states) as input.
-- [] Write the D3.js code to create the zoomable map, including the event handlers for zooming and resetting the map.
-- [] Load the TopoJSON file (us.json) and call the chart function.
-- [] Append the generated SVG element to the DOM.
-- [] Obtain and include the TopoJSON data file.
+- [X] Define the main chart function, which takes a TopoJSON data object (US states) as input.
+- [X] Write the D3.js code to create the zoomable map, including the event handlers for zooming and resetting the map.
+- [X] Load the TopoJSON file (us.json) and call the chart function.
+- [X] Append the generated SVG element to the DOM.
+- [X] Obtain and include the TopoJSON data file.
 
 3.  Download the us.json file from a reliable source (e.g., https://gist.github.com/mbostock/4090846#file-us-json).
-- [] Save the us.json file in the project folder.
+- [X] Save the us.json file in the project folder.
 - [] (Optional) Style the map with CSS.
 
 4. Create a CSS file (styles.css) to apply custom styling to the map.
